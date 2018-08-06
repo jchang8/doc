@@ -4,10 +4,10 @@ ubuntu 16.0.4 LTS
 
 https://cloud.google.com/sdk/docs/#linux
 
-download:  “google-cloud-sdk-173.0.0-linux-x86_64.tar.gz”
-install: ./google-cloud-sdk/install.sh
-gcloud init
-$ gcloud init
+1)download:  “google-cloud-sdk-173.0.0-linux-x86_64.tar.gz”
+2)install: ./google-cloud-sdk/install.sh
+3)gcloud init
+  $ gcloud init
 
 Welcome! This command will take you through the configuration of gcloud.
 
@@ -87,11 +87,11 @@ Some things to try next:
 
 * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
 
-gcloud compute instances list
+4)gcloud compute instances list
 
-show: gcloud auth list
+5)show: gcloud auth list
 
-remove auth: gcloud auth revoke xxx@xxx.com
+6)remove auth: gcloud auth revoke xxx@xxx.com
 
  
 
